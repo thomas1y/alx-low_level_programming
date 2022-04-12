@@ -1,6 +1,5 @@
 #include "main.h"
 
-int _putchar(char c);
 
 /**
  * print_times_table - Prints the times table of the input,
