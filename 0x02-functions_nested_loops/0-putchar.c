@@ -2,29 +2,21 @@
 /**
  *main - entry point
  *
- *Description: prints Holberton followed by a newline
+ *Description: prints _putchar, followed by a new line
  *
  *Return: returns 0(successful)
  *
  */
 int main(void)
 {
-	char holbText[8] = "_putchar";
-	int i;
-
-	for (i = 0; i < 8; i++)
-	{
-		_putchar(holbText[i]);
-	}
-	_putchar('\n');
-	return (0);
+putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
+return (0);
 }
-
-  
- 
- 
- 
-
-
-
-
