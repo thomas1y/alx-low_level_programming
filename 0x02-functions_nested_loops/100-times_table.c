@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 /**
  *print_times_table - prints timestable from n
  *
@@ -7,7 +7,7 @@
  *Return: void
  *
  */
-void print_times_table(int n)
+void times_table(int n)
 {
 	int result;
 
